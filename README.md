@@ -182,8 +182,8 @@ Importância de manter o banco sincronizado com o código
 
 Debugging de erros reais (sintaxe SQL, parâmetros, colunas inexistentes)
 
-Autor: 
+👤Autor
+
 Gustavo Indalêncio da Silva
 Estudante de Desenvolvimento de Sistemas – SENAC
 Dezembro de 2025
-
