@@ -1,4 +1,6 @@
-🧾 Descrição
+<h1> Sistema Cadastro Todo Dia versão melhorada Java </h1>
+
+## 🧾 Descrição
 
 O Cadastro Todo Dia é um sistema de mercado desenvolvido em Java, com integração direta a um banco de dados MySQL, utilizando o padrão DAO (Data Access Object) para organização do acesso aos dados.
 
@@ -7,7 +9,7 @@ O projeto simula o funcionamento básico de um pequeno mercado, permitindo o cad
 Este projeto representa uma evolução significativa em relação a versões anteriores mais simples, sendo focado em boas práticas, organização de código e integração real com banco de dados.
 
 
-🎯 Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
 Praticar Java orientado a objetos
 
@@ -22,70 +24,70 @@ Entender relacionamentos entre tabelas e chaves estrangeiras
 Simular um fluxo real de venda com atualização automática de estoque
 
 
-⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 
-👤 Clientes
+### 👤 Clientes
 
-Inserir clientes
++ Inserir clientes
 
-Atualizar dados
++ Atualizar dados
 
-Deletar clientes
++ Deletar clientes
 
-Buscar por ID
++ Buscar por ID
 
-Listar todos
-
-
-📦 Produtos
-
-Inserir produtos
-
-Atualizar informações
-
-Controlar estoque
-
-Deletar produtos
-
-Buscar por ID
-
-Listar todos
++ Listar todos
 
 
-🏭 Fornecedores
+### 📦 Produtos
 
-Inserir fornecedores
++ Inserir produtos
 
-Atualizar dados
++ Atualizar informações
 
-Deletar fornecedores
++ Controlar estoque
 
-Buscar por ID
++ Deletar produtos
 
-Listar todos
++ Buscar por ID
 
-
-🤝 Relação Produto × Fornecedor
-
-Relacionamento N:N
-
-Controle via tabela intermediária
++ Listar todos
 
 
-💰 Caixa (Vendas)
+### 🏭 Fornecedores
 
-Registrar vendas
++ Inserir fornecedores
 
-Relacionar cliente e produto
++ Atualizar dados
 
-Calcular valor total
++ Deletar fornecedores
 
-Atualizar estoque automaticamente
++ Buscar por ID
 
-Persistir vendas no banco
++ Listar todos
 
 
-🗄️ Banco de Dados
+### 🤝 Relação Produto × Fornecedor
+
++ Relacionamento N:N
+
++ Controle via tabela intermediária
+
+
+### 💰 Caixa (Vendas)
+
++ Registrar vendas
+
++ Relacionar cliente e produto
+
++ Calcular valor total
+
++ Atualizar estoque automaticamente
+
++ Persistir vendas no banco
+
+
+## 🗄️ Banco de Dados
 
 MySQL
 
@@ -93,48 +95,48 @@ Modelagem relacional completa
 
 Uso de:
 
-PRIMARY KEY
++ PRIMARY KEY
 
-FOREIGN KEY
++ FOREIGN KEY
 
-AUTO_INCREMENT
++ AUTO_INCREMENT
 
-ON DELETE CASCADE
++ ON DELETE CASCADE
 
 
 Trigger para atualização automática do estoque após venda
 
 
-📌 Tabelas principais
+## 📌 Tabelas principais
 
-cadastrar_clientes
++ cadastrar_clientes
 
-cadastrar_produtos
++ cadastrar_produtos
 
-cadastro_de_fornecedores
++ cadastro_de_fornecedores
 
-produto_fornecedor
++ produto_fornecedor
 
-caixa
++ caixa
 
-usuarios
-
-
-
-🛠️ Tecnologias Utilizadas
-
-Java
-
-JDBC
-
-MySQL
-
-NetBeans
-
-Git & GitHub
++ usuarios
 
 
-📁 Organização do Projeto
+
+## 🛠️ Tecnologias Utilizadas
+
++ Java
+
++ JDBC
+
++ MySQL
+
++ NetBeans
+
++ Git & GitHub
+
+
+## 📁 Organização do Projeto
 
 src/
  ├── Conexao.java
@@ -147,28 +149,22 @@ src/
  └── classes de modelo (CadastrarClientes, Produtos, Fornecedores, etc.)
 
 
-▶️ Como Executar
+## ▶️ Como Executar
 
-1. Execute o script SQL fornecido para criar o banco e as tabelas
-
-
-2. Configure corretamente o arquivo Conexao.java:
-
++ Execute o script SQL fornecido para criar o banco e as tabelas
+  
++ Configure corretamente o arquivo Conexao.java:
 private static final String URL = "jdbc:mysql://localhost:3306/cadastro_todo_dia";
 private static final String USER = "root";
 private static final String PASSWORD = "root";
 
++ Abra o projeto no NetBeans
 
-3. Abra o projeto no NetBeans
++ Execute a classe CadastroTodoDia
 
++ Utilize o menu pelo terminal
 
-4. Execute a classe CadastroTodoDia
-
-
-5. Utilize o menu pelo terminal
-
-
-🧠 Aprendizados
+## 🧠 Aprendizados
 
 Durante o desenvolvimento deste projeto, foram consolidados conceitos como:
 
@@ -182,7 +178,7 @@ Importância de manter o banco sincronizado com o código
 
 Debugging de erros reais (sintaxe SQL, parâmetros, colunas inexistentes)
 
-👤Autor
+## 👤Autor
 
 Gustavo Indalêncio da Silva
 Estudante de Desenvolvimento de Sistemas – SENAC
